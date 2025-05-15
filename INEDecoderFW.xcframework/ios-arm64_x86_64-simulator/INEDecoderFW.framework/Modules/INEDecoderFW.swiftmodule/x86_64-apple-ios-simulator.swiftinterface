@@ -1,0 +1,216 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target x86_64-apple-ios16.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name INEDecoderFW
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1
+import AVFoundation
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum QRCodeError : Swift.Error {
+  case dataTooLong(Swift.String)
+}
+public struct QRCodeMask : Swift.Hashable {
+  public let value: Swift.UInt8
+  public init(_ value: Swift.UInt8)
+  public static func == (a: INEDecoderFW.QRCodeMask, b: INEDecoderFW.QRCodeMask) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct QRCodeVersion : Swift.Hashable, Swift.Comparable {
+  public static let min: INEDecoderFW.QRCodeVersion
+  public static let max: INEDecoderFW.QRCodeVersion
+  public let value: Swift.UInt8
+  public init(_ value: Swift.UInt8)
+  public static func < (lhs: INEDecoderFW.QRCodeVersion, rhs: INEDecoderFW.QRCodeVersion) -> Swift.Bool
+  public static func == (a: INEDecoderFW.QRCodeVersion, b: INEDecoderFW.QRCodeVersion) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct QRSegment : Swift.Hashable {
+  public let mode: INEDecoderFW.QRSegment.Mode
+  public let numChars: Swift.UInt
+  public let data: [Swift.Bool]
+  public static func makeBytes(_ data: [Swift.UInt8]) -> INEDecoderFW.QRSegment
+  public static func makeNumeric(_ text: [Swift.Character]) -> INEDecoderFW.QRSegment
+  public static func makeAlphanumeric(_ text: [Swift.Character]) -> INEDecoderFW.QRSegment
+  public static func makeSegments(_ text: [Swift.Character]) -> [INEDecoderFW.QRSegment]
+  public static func makeECI(assignVal: Swift.UInt32) -> INEDecoderFW.QRSegment
+  public init(mode: INEDecoderFW.QRSegment.Mode, numChars: Swift.UInt, data: [Swift.Bool])
+  public static func getTotalBits(segments: [INEDecoderFW.QRSegment], version: INEDecoderFW.QRCodeVersion) -> Swift.UInt?
+  public static func isAlphanumeric(_ text: [Swift.Character]) -> Swift.Bool
+  public static func isNumeric(_ text: [Swift.Character]) -> Swift.Bool
+  public enum Mode : Swift.Hashable {
+    case numeric
+    case alphanumeric
+    case byte
+    case kanji
+    case eci
+    public static func == (a: INEDecoderFW.QRSegment.Mode, b: INEDecoderFW.QRSegment.Mode) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public static func == (a: INEDecoderFW.QRSegment, b: INEDecoderFW.QRSegment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct Biograficos : Swift.Codable {
+  public var nombre: Swift.String?
+  public var apellido1: Swift.String?
+  public var apellido2: Swift.String?
+  public var domicilio: Swift.String?
+  public var claveElector: Swift.String?
+  public var curp: Swift.String?
+  public var sexo: Swift.String?
+  public var vigencia: Swift.String?
+  public var fechaNacimiento: Swift.String?
+  public var registro: Swift.String?
+  public var seccion: Swift.String?
+  public var cic: Swift.String?
+  public var ocr: Swift.String?
+  public var entidad: Swift.String?
+  public var municipio: Swift.String?
+  public var tipo: Swift.String?
+  public var version: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CustomDataSend : Swift.Codable {
+  public init()
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct deviceData : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension UIKit.UIImage {
+  public class func gifImageWithData(_ data: Foundation.Data) -> UIKit.UIImage?
+  public class func gifImageWithURL(_ gifUrl: Swift.String) -> UIKit.UIImage?
+  public class func base64(img: UIKit.UIImage) -> Swift.String?
+  public class func gifImageWithName(_ name: Swift.String) -> UIKit.UIImage?
+}
+public struct QRResponse : Swift.Codable {
+  public var foto: Swift.String?
+  public var biograficos: INEDecoderFW.Biograficos?
+  public var estampaTiempo: INEDecoderFW.EstampaTiempo?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct FotoResponse : Swift.Codable {
+  public var foto: Swift.String?
+  public var estatus: Swift.Int?
+  public var descripcion: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct EstampaTiempo : Swift.Codable {
+  public var tiempo: Swift.String?
+  public var firma: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol personalCode_onlineDelegate {
+  func onCapture(responseData: Foundation.Data, img: UIKit.UIImage, qrsIneImage: UIKit.UIImage)
+  func onClose(error: Swift.Int, description: Swift.String)
+}
+public struct CustomDataReceive : Swift.Decodable, Swift.Encodable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class personalcode_online : UIKit.UIViewController, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate, AVFoundation.AVCaptureMetadataOutputObjectsDelegate {
+  @_Concurrency.MainActor @preconcurrency public var personalCodeonlineDelegate: (any INEDecoderFW.personalCode_onlineDelegate)?
+  @_Concurrency.MainActor @preconcurrency public var PersonalCodeBuildVersion: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var PersonalCodeLangQRs: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var PersonalCodeColorLine: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var PersonalCodeColorFont: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var PersonalCodeSettingsFont: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var PersonalCodeServiceURL: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var PersonalCodeToken: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var loadingGifImage: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var closeImg: UIKit.UIImage
+  @_Concurrency.MainActor @preconcurrency public var switchCamera: UIKit.UIImage
+  @_Concurrency.MainActor @preconcurrency public var flashOnImage: UIKit.UIImage
+  @_Concurrency.MainActor @preconcurrency public var flashOffImage: UIKit.UIImage
+  @_Concurrency.MainActor @preconcurrency public func capture()
+  @_Concurrency.MainActor @preconcurrency final public let buttonClose: UIKit.UIButton
+  @_Concurrency.MainActor @preconcurrency final public let buttonFlashAuto: UIKit.UIButton
+  @_Concurrency.MainActor @preconcurrency final public let buttonFlashOn: UIKit.UIButton
+  @_Concurrency.MainActor @preconcurrency final public let buttonFlashOff: UIKit.UIButton
+  @_Concurrency.MainActor @preconcurrency public func stopAll(completion: (() -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency @objc public func metadataOutput(_ output: AVFoundation.AVCaptureMetadataOutput, didOutput metadataObjects: [AVFoundation.AVMetadataObject], from connection: AVFoundation.AVCaptureConnection)
+  @_Concurrency.MainActor @preconcurrency @objc public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+  @objc deinit
+}
+public struct BitBuffer {
+  public var bits: [Swift.Bool]
+  public var count: Swift.UInt {
+    get
+  }
+  public init(_ bits: [Swift.Bool] = [])
+  public mutating func appendBits(_ value: Swift.UInt32, _ length: Swift.Int)
+}
+public struct QRCode {
+  public let version: INEDecoderFW.QRCodeVersion
+  public let size: Swift.Int
+  public let errorCorrectionLevel: INEDecoderFW.QRCodeECC
+  public var mask: INEDecoderFW.QRCodeMask {
+    get
+  }
+  public static func encode(text: Swift.String, ecl: INEDecoderFW.QRCodeECC) throws -> INEDecoderFW.QRCode
+  public static func encode(binary data: Foundation.Data, ecl: INEDecoderFW.QRCodeECC) throws -> INEDecoderFW.QRCode
+  public static func encode(segments: [INEDecoderFW.QRSegment], ecl: INEDecoderFW.QRCodeECC, minVersion: INEDecoderFW.QRCodeVersion = .min, maxVersion: INEDecoderFW.QRCodeVersion = .max, mask: INEDecoderFW.QRCodeMask? = nil, boostECL: Swift.Bool = true) throws -> INEDecoderFW.QRCode
+  public static func encodeCodewords(version: INEDecoderFW.QRCodeVersion, ecl: INEDecoderFW.QRCodeECC, dataCodeWords: [Swift.UInt8], mask: INEDecoderFW.QRCodeMask? = nil) -> INEDecoderFW.QRCode
+  public func getModule(x: Swift.Int, y: Swift.Int) -> Swift.Bool
+  public struct Pixel {
+    public var value: Swift.UInt32
+    public var red: Swift.UInt8 {
+      get
+      set
+    }
+    public var green: Swift.UInt8 {
+      get
+      set
+    }
+    public var blue: Swift.UInt8 {
+      get
+      set
+    }
+    public var alpha: Swift.UInt8 {
+      get
+      set
+    }
+  }
+  public func toUIImage() -> UIKit.UIImage?
+  public func toSVGString(border: Swift.Int, width: Swift.Int? = nil) -> Swift.String
+}
+public let penaltyN1: Swift.Int
+public let penaltyN2: Swift.Int
+public let penaltyN3: Swift.Int
+public let penaltyN4: Swift.Int
+public let eccCodewordsPerBlock: [[Swift.Int]]
+public let numErrorCorrectionBlocks: [[Swift.Int]]
+public enum QRCodeECC : Swift.UInt {
+  case low
+  case medium
+  case quartile
+  case high
+  public init?(rawValue: Swift.UInt)
+  public typealias RawValue = Swift.UInt
+  public var rawValue: Swift.UInt {
+    get
+  }
+}
+extension INEDecoderFW.QRCodeECC : Swift.Equatable {}
+extension INEDecoderFW.QRCodeECC : Swift.Hashable {}
+extension INEDecoderFW.QRCodeECC : Swift.RawRepresentable {}

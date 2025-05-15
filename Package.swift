@@ -2,20 +2,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "SpooffFW",
+    name: "INEDecoderFW",
     platforms: [
         .iOS(.v16) // o la versión mínima que soporte tu xcframework
     ],
     products: [
         .library(
-            name: "SpooffFW",
-            targets: ["SpooffFW"]
+            name: "INEDecoderFW",
+            targets: ["INEDecoderFW"]
         ),
     ],
     targets: [
         .binaryTarget(
-            name: "SpooffFW",
-            path: "./SpooffFW.xcframework"
+            name: "INEDecoderFW",
+            path: "./INEDecoderFW.xcframework"
         )
     ]
 )
