@@ -6867,9 +6867,119 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "fechaGeneracion",
+            "printedName": "fechaGeneracion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12INEDecoderFW7INEDataV15fechaGeneracionSSSgvp",
+            "mangledName": "$s12INEDecoderFW7INEDataV15fechaGeneracionSSSgvp",
+            "moduleName": "INEDecoderFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12INEDecoderFW7INEDataV15fechaGeneracionSSSgvg",
+                "mangledName": "$s12INEDecoderFW7INEDataV15fechaGeneracionSSSgvg",
+                "moduleName": "INEDecoderFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12INEDecoderFW7INEDataV15fechaGeneracionSSSgvs",
+                "mangledName": "$s12INEDecoderFW7INEDataV15fechaGeneracionSSSgvs",
+                "moduleName": "INEDecoderFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12INEDecoderFW7INEDataV15fechaGeneracionSSSgvM",
+                "mangledName": "$s12INEDecoderFW7INEDataV15fechaGeneracionSSSgvM",
+                "moduleName": "INEDecoderFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(tipo:cic:ocr:curp:nombre:apellido1:apellido2:entidad:municipio:seccion:vigencia:sexo:version:)",
+            "printedName": "init(tipo:cic:ocr:curp:nombre:apellido1:apellido2:entidad:municipio:seccion:vigencia:sexo:version:fechaGeneracion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7071,11 +7181,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12INEDecoderFW7INEDataV4tipo3cic3ocr4curp6nombre9apellido19apellido27entidad9municipio7seccion8vigencia4sexo7versionACSSSg_A12Qtcfc",
-            "mangledName": "$s12INEDecoderFW7INEDataV4tipo3cic3ocr4curp6nombre9apellido19apellido27entidad9municipio7seccion8vigencia4sexo7versionACSSSg_A12Qtcfc",
+            "usr": "s:12INEDecoderFW7INEDataV4tipo3cic3ocr4curp6nombre9apellido19apellido27entidad9municipio7seccion8vigencia4sexo7version15fechaGeneracionACSSSg_A13Rtcfc",
+            "mangledName": "$s12INEDecoderFW7INEDataV4tipo3cic3ocr4curp6nombre9apellido19apellido27entidad9municipio7seccion8vigencia4sexo7version15fechaGeneracionACSSSg_A13Rtcfc",
             "moduleName": "INEDecoderFW",
             "declAttributes": [
               "AccessControl"
@@ -8694,6 +8819,526 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "QRData2",
+        "printedName": "QRData2",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "transaccionID",
+            "printedName": "transaccionID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12INEDecoderFW7QRData2V13transaccionIDSSvp",
+            "mangledName": "$s12INEDecoderFW7QRData2V13transaccionIDSSvp",
+            "moduleName": "INEDecoderFW",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12INEDecoderFW7QRData2V13transaccionIDSSvg",
+                "mangledName": "$s12INEDecoderFW7QRData2V13transaccionIDSSvg",
+                "moduleName": "INEDecoderFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12INEDecoderFW7QRData2V13transaccionIDSSvs",
+                "mangledName": "$s12INEDecoderFW7QRData2V13transaccionIDSSvs",
+                "moduleName": "INEDecoderFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12INEDecoderFW7QRData2V13transaccionIDSSvM",
+                "mangledName": "$s12INEDecoderFW7QRData2V13transaccionIDSSvM",
+                "moduleName": "INEDecoderFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "estatus",
+            "printedName": "estatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12INEDecoderFW7QRData2V7estatusSivp",
+            "mangledName": "$s12INEDecoderFW7QRData2V7estatusSivp",
+            "moduleName": "INEDecoderFW",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12INEDecoderFW7QRData2V7estatusSivg",
+                "mangledName": "$s12INEDecoderFW7QRData2V7estatusSivg",
+                "moduleName": "INEDecoderFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12INEDecoderFW7QRData2V7estatusSivs",
+                "mangledName": "$s12INEDecoderFW7QRData2V7estatusSivs",
+                "moduleName": "INEDecoderFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12INEDecoderFW7QRData2V7estatusSivM",
+                "mangledName": "$s12INEDecoderFW7QRData2V7estatusSivM",
+                "moduleName": "INEDecoderFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "descripcion",
+            "printedName": "descripcion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12INEDecoderFW7QRData2V11descripcionSSvp",
+            "mangledName": "$s12INEDecoderFW7QRData2V11descripcionSSvp",
+            "moduleName": "INEDecoderFW",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12INEDecoderFW7QRData2V11descripcionSSvg",
+                "mangledName": "$s12INEDecoderFW7QRData2V11descripcionSSvg",
+                "moduleName": "INEDecoderFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12INEDecoderFW7QRData2V11descripcionSSvs",
+                "mangledName": "$s12INEDecoderFW7QRData2V11descripcionSSvs",
+                "moduleName": "INEDecoderFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12INEDecoderFW7QRData2V11descripcionSSvM",
+                "mangledName": "$s12INEDecoderFW7QRData2V11descripcionSSvM",
+                "moduleName": "INEDecoderFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "foto",
+            "printedName": "foto",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12INEDecoderFW7QRData2V4fotoSSvp",
+            "mangledName": "$s12INEDecoderFW7QRData2V4fotoSSvp",
+            "moduleName": "INEDecoderFW",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12INEDecoderFW7QRData2V4fotoSSvg",
+                "mangledName": "$s12INEDecoderFW7QRData2V4fotoSSvg",
+                "moduleName": "INEDecoderFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12INEDecoderFW7QRData2V4fotoSSvs",
+                "mangledName": "$s12INEDecoderFW7QRData2V4fotoSSvs",
+                "moduleName": "INEDecoderFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12INEDecoderFW7QRData2V4fotoSSvM",
+                "mangledName": "$s12INEDecoderFW7QRData2V4fotoSSvM",
+                "moduleName": "INEDecoderFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "biograficos",
+            "printedName": "biograficos",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "INEData",
+                "printedName": "INEDecoderFW.INEData",
+                "usr": "s:12INEDecoderFW7INEDataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12INEDecoderFW7QRData2V11biograficosAA7INEDataVvp",
+            "mangledName": "$s12INEDecoderFW7QRData2V11biograficosAA7INEDataVvp",
+            "moduleName": "INEDecoderFW",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "INEData",
+                    "printedName": "INEDecoderFW.INEData",
+                    "usr": "s:12INEDecoderFW7INEDataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12INEDecoderFW7QRData2V11biograficosAA7INEDataVvg",
+                "mangledName": "$s12INEDecoderFW7QRData2V11biograficosAA7INEDataVvg",
+                "moduleName": "INEDecoderFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "INEData",
+                    "printedName": "INEDecoderFW.INEData",
+                    "usr": "s:12INEDecoderFW7INEDataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12INEDecoderFW7QRData2V11biograficosAA7INEDataVvs",
+                "mangledName": "$s12INEDecoderFW7QRData2V11biograficosAA7INEDataVvs",
+                "moduleName": "INEDecoderFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12INEDecoderFW7QRData2V11biograficosAA7INEDataVvM",
+                "mangledName": "$s12INEDecoderFW7QRData2V11biograficosAA7INEDataVvM",
+                "moduleName": "INEDecoderFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "QRData2",
+                "printedName": "INEDecoderFW.QRData2",
+                "usr": "s:12INEDecoderFW7QRData2V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12INEDecoderFW7QRData2V4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12INEDecoderFW7QRData2V4fromACs7Decoder_p_tKcfc",
+            "moduleName": "INEDecoderFW",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12INEDecoderFW7QRData2V6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12INEDecoderFW7QRData2V6encode2toys7Encoder_p_tKF",
+            "moduleName": "INEDecoderFW",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12INEDecoderFW7QRData2V",
+        "mangledName": "$s12INEDecoderFW7QRData2V",
+        "moduleName": "INEDecoderFW",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -8746,7 +9391,7 @@
           {
             "kind": "Function",
             "name": "onSuccess",
-            "printedName": "onSuccess(img:txt:qrsIneImage:)",
+            "printedName": "onSuccess(img:txt:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8764,17 +9409,11 @@
                 "name": "INEData",
                 "printedName": "INEDecoderFW.INEData",
                 "usr": "s:12INEDecoderFW7INEDataV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12INEDecoderFW27PersonalCodeScannerListenerP9onSuccess3img3txt11qrsIneImageySo7UIImageC_AA7INEDataVAItF",
-            "mangledName": "$s12INEDecoderFW27PersonalCodeScannerListenerP9onSuccess3img3txt11qrsIneImageySo7UIImageC_AA7INEDataVAItF",
+            "usr": "s:12INEDecoderFW27PersonalCodeScannerListenerP9onSuccess3img3txtySo7UIImageC_AA7INEDataVtF",
+            "mangledName": "$s12INEDecoderFW27PersonalCodeScannerListenerP9onSuccess3img3txtySo7UIImageC_AA7INEDataVtF",
             "moduleName": "INEDecoderFW",
             "genericSig": "<τ_0_0 where τ_0_0 : INEDecoderFW.PersonalCodeScannerListener>",
             "sugared_genericSig": "<Self where Self : INEDecoderFW.PersonalCodeScannerListener>",
@@ -9846,6 +10485,94 @@
           },
           {
             "kind": "Var",
+            "name": "PersonalCodeToken",
+            "printedName": "PersonalCodeToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12INEDecoderFW19PersonalCodeScannerC0cD5TokenSSvp",
+            "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC0cD5TokenSSvp",
+            "moduleName": "INEDecoderFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12INEDecoderFW19PersonalCodeScannerC0cD5TokenSSvg",
+                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC0cD5TokenSSvg",
+                "moduleName": "INEDecoderFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12INEDecoderFW19PersonalCodeScannerC0cD5TokenSSvs",
+                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC0cD5TokenSSvs",
+                "moduleName": "INEDecoderFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12INEDecoderFW19PersonalCodeScannerC0cD5TokenSSvM",
+                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC0cD5TokenSSvM",
+                "moduleName": "INEDecoderFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "loadingGifImage",
             "printedName": "loadingGifImage",
             "children": [
@@ -9939,14 +10666,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:12INEDecoderFW19PersonalCodeScannerC8closeImgSo7UIImageCvp",
-            "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC8closeImgSo7UIImageCvp",
+            "usr": "s:12INEDecoderFW19PersonalCodeScannerC8closeImgSo7UIImageCSgvp",
+            "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC8closeImgSo7UIImageCSgvp",
             "moduleName": "INEDecoderFW",
             "declAttributes": [
               "HasInitialValue",
@@ -9964,14 +10699,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC8closeImgSo7UIImageCvg",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC8closeImgSo7UIImageCvg",
+                "usr": "s:12INEDecoderFW19PersonalCodeScannerC8closeImgSo7UIImageCSgvg",
+                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC8closeImgSo7UIImageCSgvg",
                 "moduleName": "INEDecoderFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -9988,14 +10731,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC8closeImgSo7UIImageCvs",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC8closeImgSo7UIImageCvs",
+                "usr": "s:12INEDecoderFW19PersonalCodeScannerC8closeImgSo7UIImageCSgvs",
+                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC8closeImgSo7UIImageCSgvs",
                 "moduleName": "INEDecoderFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -10012,96 +10763,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC8closeImgSo7UIImageCvM",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC8closeImgSo7UIImageCvM",
-                "moduleName": "INEDecoderFW",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "switchCamera",
-            "printedName": "switchCamera",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12INEDecoderFW19PersonalCodeScannerC12switchCameraSo7UIImageCvp",
-            "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC12switchCameraSo7UIImageCvp",
-            "moduleName": "INEDecoderFW",
-            "declAttributes": [
-              "HasInitialValue",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC12switchCameraSo7UIImageCvg",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC12switchCameraSo7UIImageCvg",
-                "moduleName": "INEDecoderFW",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC12switchCameraSo7UIImageCvs",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC12switchCameraSo7UIImageCvs",
-                "moduleName": "INEDecoderFW",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC12switchCameraSo7UIImageCvM",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC12switchCameraSo7UIImageCvM",
+                "usr": "s:12INEDecoderFW19PersonalCodeScannerC8closeImgSo7UIImageCSgvM",
+                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC8closeImgSo7UIImageCSgvM",
                 "moduleName": "INEDecoderFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -10115,14 +10778,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:12INEDecoderFW19PersonalCodeScannerC12flashOnImageSo7UIImageCvp",
-            "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC12flashOnImageSo7UIImageCvp",
+            "usr": "s:12INEDecoderFW19PersonalCodeScannerC12flashOnImageSo7UIImageCSgvp",
+            "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC12flashOnImageSo7UIImageCSgvp",
             "moduleName": "INEDecoderFW",
             "declAttributes": [
               "HasInitialValue",
@@ -10140,14 +10811,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC12flashOnImageSo7UIImageCvg",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC12flashOnImageSo7UIImageCvg",
+                "usr": "s:12INEDecoderFW19PersonalCodeScannerC12flashOnImageSo7UIImageCSgvg",
+                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC12flashOnImageSo7UIImageCSgvg",
                 "moduleName": "INEDecoderFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -10164,14 +10843,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC12flashOnImageSo7UIImageCvs",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC12flashOnImageSo7UIImageCvs",
+                "usr": "s:12INEDecoderFW19PersonalCodeScannerC12flashOnImageSo7UIImageCSgvs",
+                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC12flashOnImageSo7UIImageCSgvs",
                 "moduleName": "INEDecoderFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -10188,8 +10875,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC12flashOnImageSo7UIImageCvM",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC12flashOnImageSo7UIImageCvM",
+                "usr": "s:12INEDecoderFW19PersonalCodeScannerC12flashOnImageSo7UIImageCSgvM",
+                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC12flashOnImageSo7UIImageCSgvM",
                 "moduleName": "INEDecoderFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -10203,14 +10890,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:12INEDecoderFW19PersonalCodeScannerC13flashOffImageSo7UIImageCvp",
-            "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC13flashOffImageSo7UIImageCvp",
+            "usr": "s:12INEDecoderFW19PersonalCodeScannerC13flashOffImageSo7UIImageCSgvp",
+            "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC13flashOffImageSo7UIImageCSgvp",
             "moduleName": "INEDecoderFW",
             "declAttributes": [
               "HasInitialValue",
@@ -10228,14 +10923,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC13flashOffImageSo7UIImageCvg",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC13flashOffImageSo7UIImageCvg",
+                "usr": "s:12INEDecoderFW19PersonalCodeScannerC13flashOffImageSo7UIImageCSgvg",
+                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC13flashOffImageSo7UIImageCSgvg",
                 "moduleName": "INEDecoderFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -10252,14 +10955,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC13flashOffImageSo7UIImageCvs",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC13flashOffImageSo7UIImageCvs",
+                "usr": "s:12INEDecoderFW19PersonalCodeScannerC13flashOffImageSo7UIImageCSgvs",
+                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC13flashOffImageSo7UIImageCSgvs",
                 "moduleName": "INEDecoderFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -10276,8 +10987,120 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC13flashOffImageSo7UIImageCvM",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC13flashOffImageSo7UIImageCvM",
+                "usr": "s:12INEDecoderFW19PersonalCodeScannerC13flashOffImageSo7UIImageCSgvM",
+                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC13flashOffImageSo7UIImageCSgvM",
+                "moduleName": "INEDecoderFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "flashAutoImage",
+            "printedName": "flashAutoImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12INEDecoderFW19PersonalCodeScannerC14flashAutoImageSo7UIImageCSgvp",
+            "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC14flashAutoImageSo7UIImageCSgvp",
+            "moduleName": "INEDecoderFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12INEDecoderFW19PersonalCodeScannerC14flashAutoImageSo7UIImageCSgvg",
+                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC14flashAutoImageSo7UIImageCSgvg",
+                "moduleName": "INEDecoderFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12INEDecoderFW19PersonalCodeScannerC14flashAutoImageSo7UIImageCSgvs",
+                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC14flashAutoImageSo7UIImageCSgvs",
+                "moduleName": "INEDecoderFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12INEDecoderFW19PersonalCodeScannerC14flashAutoImageSo7UIImageCSgvM",
+                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC14flashAutoImageSo7UIImageCSgvM",
                 "moduleName": "INEDecoderFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -10305,210 +11128,6 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "buttonClose",
-            "printedName": "buttonClose",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIButton",
-                "printedName": "UIKit.UIButton",
-                "usr": "c:objc(cs)UIButton"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12INEDecoderFW19PersonalCodeScannerC11buttonCloseSo8UIButtonCvp",
-            "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC11buttonCloseSo8UIButtonCvp",
-            "moduleName": "INEDecoderFW",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIButton",
-                    "printedName": "UIKit.UIButton",
-                    "usr": "c:objc(cs)UIButton"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC11buttonCloseSo8UIButtonCvg",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC11buttonCloseSo8UIButtonCvg",
-                "moduleName": "INEDecoderFW",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "buttonFlashAuto",
-            "printedName": "buttonFlashAuto",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIButton",
-                "printedName": "UIKit.UIButton",
-                "usr": "c:objc(cs)UIButton"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12INEDecoderFW19PersonalCodeScannerC15buttonFlashAutoSo8UIButtonCvp",
-            "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC15buttonFlashAutoSo8UIButtonCvp",
-            "moduleName": "INEDecoderFW",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIButton",
-                    "printedName": "UIKit.UIButton",
-                    "usr": "c:objc(cs)UIButton"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC15buttonFlashAutoSo8UIButtonCvg",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC15buttonFlashAutoSo8UIButtonCvg",
-                "moduleName": "INEDecoderFW",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "buttonFlashOn",
-            "printedName": "buttonFlashOn",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIButton",
-                "printedName": "UIKit.UIButton",
-                "usr": "c:objc(cs)UIButton"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12INEDecoderFW19PersonalCodeScannerC13buttonFlashOnSo8UIButtonCvp",
-            "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC13buttonFlashOnSo8UIButtonCvp",
-            "moduleName": "INEDecoderFW",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIButton",
-                    "printedName": "UIKit.UIButton",
-                    "usr": "c:objc(cs)UIButton"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC13buttonFlashOnSo8UIButtonCvg",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC13buttonFlashOnSo8UIButtonCvg",
-                "moduleName": "INEDecoderFW",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "buttonFlashOff",
-            "printedName": "buttonFlashOff",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIButton",
-                "printedName": "UIKit.UIButton",
-                "usr": "c:objc(cs)UIButton"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12INEDecoderFW19PersonalCodeScannerC14buttonFlashOffSo8UIButtonCvp",
-            "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC14buttonFlashOffSo8UIButtonCvp",
-            "moduleName": "INEDecoderFW",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIButton",
-                    "printedName": "UIKit.UIButton",
-                    "usr": "c:objc(cs)UIButton"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC14buttonFlashOffSo8UIButtonCvg",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC14buttonFlashOffSo8UIButtonCvg",
-                "moduleName": "INEDecoderFW",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
           },
           {
             "kind": "Function",
@@ -10683,6 +11302,34 @@
               "Preconcurrency",
               "Custom",
               "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLayoutSubviews",
+            "printedName": "viewDidLayoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@INEDecoderFW@objc(cs)PersonalCodeScanner(im)viewDidLayoutSubviews",
+            "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC21viewDidLayoutSubviewsyyF",
+            "moduleName": "INEDecoderFW",
+            "overriding": true,
+            "objc_name": "viewDidLayoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -11253,14 +11900,14 @@
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/ConectionManager.swift",
       "kind": "FloatLiteral",
-      "offset": 1229,
+      "offset": 1274,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/ConectionManager.swift",
       "kind": "FloatLiteral",
-      "offset": 1288,
+      "offset": 1329,
       "length": 3,
       "value": "0.0"
     },
@@ -11309,973 +11956,1015 @@
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "StringLiteral",
-      "offset": 497,
+      "offset": 501,
       "length": 6,
       "value": "\"foto\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "StringLiteral",
-      "offset": 527,
+      "offset": 531,
       "length": 9,
       "value": "\"estatus\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "StringLiteral",
-      "offset": 958,
+      "offset": 962,
       "length": 7,
       "value": "\"4.2.7\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "StringLiteral",
-      "offset": 1013,
+      "offset": 1017,
       "length": 24,
       "value": "\"Enfoca los códigos QR\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "StringLiteral",
-      "offset": 1084,
+      "offset": 1088,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "StringLiteral",
-      "offset": 1140,
+      "offset": 1144,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "StringLiteral",
-      "offset": 1201,
+      "offset": 1204,
       "length": 7,
       "value": "\"Arial\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "StringLiteral",
-      "offset": 1258,
+      "offset": 1260,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "StringLiteral",
-      "offset": 1308,
+      "offset": 1310,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "StringLiteral",
-      "offset": 1358,
+      "offset": 1360,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "StringLiteral",
-      "offset": 1408,
+      "offset": 1410,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "StringLiteral",
-      "offset": 1453,
+      "offset": 1456,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "StringLiteral",
-      "offset": 1677,
+      "offset": 1500,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1602,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
+      "kind": "StringLiteral",
+      "offset": 1655,
+      "length": 19,
+      "value": "\"xmark.circle.fill\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
+      "kind": "StringLiteral",
+      "offset": 1726,
+      "length": 11,
+      "value": "\"bolt.fill\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
+      "kind": "StringLiteral",
+      "offset": 1790,
+      "length": 17,
+      "value": "\"bolt.slash.fill\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
+      "kind": "StringLiteral",
+      "offset": 1861,
+      "length": 27,
+      "value": "\"bolt.badge.automatic.fill\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
+      "kind": "StringLiteral",
+      "offset": 1917,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "StringLiteral",
-      "offset": 1707,
+      "offset": 1947,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "FloatLiteral",
-      "offset": 1775,
+      "offset": 2015,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "FloatLiteral",
-      "offset": 1783,
+      "offset": 2023,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "FloatLiteral",
-      "offset": 2583,
+      "offset": 2896,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "Dictionary",
-      "offset": 3489,
+      "offset": 3797,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 3524,
+      "offset": 3832,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 3768,
+      "offset": 4145,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 4266,
+      "offset": 4646,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 4305,
+      "offset": 4685,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 4334,
+      "offset": 4714,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 9074,
+      "offset": 9449,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "FloatLiteral",
-      "offset": 9600,
+      "offset": 9975,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 9632,
+      "offset": 10007,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 15597,
+      "offset": 18244,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 16964,
+      "offset": 19611,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 16997,
+      "offset": 19644,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 17030,
+      "offset": 19677,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 23420,
+      "offset": 27445,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 23478,
+      "offset": 27503,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 23538,
+      "offset": 27563,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 23794,
+      "offset": 27819,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 24210,
+      "offset": 28235,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "FloatLiteral",
-      "offset": 25176,
+      "offset": 29201,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 25587,
+      "offset": 29612,
       "length": 3,
       "value": "768"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 25689,
+      "offset": 29714,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 25744,
+      "offset": 29769,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 25753,
+      "offset": 29778,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 25808,
+      "offset": 29833,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 25817,
+      "offset": 29842,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 25823,
+      "offset": 29848,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 26025,
+      "offset": 30050,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 26032,
+      "offset": 30057,
       "length": 4,
       "value": "0x0f"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 26043,
+      "offset": 30068,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 26102,
+      "offset": 30127,
       "length": 4,
       "value": "0xf0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 26113,
+      "offset": 30138,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 26176,
+      "offset": 30201,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "Array",
-      "offset": 26479,
+      "offset": 30504,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 26655,
+      "offset": 30680,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 26763,
+      "offset": 30788,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 26804,
+      "offset": 30829,
       "length": 2,
       "value": "45"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 26837,
+      "offset": 30862,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 26869,
+      "offset": 30894,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 26883,
+      "offset": 30908,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 26905,
+      "offset": 30930,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 26958,
+      "offset": 30983,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 26980,
+      "offset": 31005,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 27001,
+      "offset": 31026,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 27023,
+      "offset": 31048,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 27074,
+      "offset": 31099,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 27234,
+      "offset": 31259,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 27246,
+      "offset": 31271,
       "length": 2,
       "value": "35"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 27360,
+      "offset": 31385,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 27367,
+      "offset": 31392,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 27892,
+      "offset": 31917,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 27924,
+      "offset": 31949,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 27959,
+      "offset": 31984,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 28350,
+      "offset": 32375,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 28397,
+      "offset": 32422,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 28444,
+      "offset": 32469,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 28491,
+      "offset": 32516,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 28538,
+      "offset": 32563,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 28568,
+      "offset": 32593,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 28581,
+      "offset": 32606,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 28620,
+      "offset": 32645,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 28817,
+      "offset": 32842,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29068,
+      "offset": 33093,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29083,
+      "offset": 33108,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29100,
+      "offset": 33125,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29114,
+      "offset": 33139,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "FloatLiteral",
-      "offset": 29123,
+      "offset": 33148,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29184,
+      "offset": 33209,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29198,
+      "offset": 33223,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29211,
+      "offset": 33236,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29227,
+      "offset": 33252,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29242,
+      "offset": 33267,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29256,
+      "offset": 33281,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29320,
+      "offset": 33345,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29334,
+      "offset": 33359,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29347,
+      "offset": 33372,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29363,
+      "offset": 33388,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29378,
+      "offset": 33403,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29392,
+      "offset": 33417,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29456,
+      "offset": 33481,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29471,
+      "offset": 33496,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29488,
+      "offset": 33513,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29502,
+      "offset": 33527,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "FloatLiteral",
-      "offset": 29511,
+      "offset": 33536,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29572,
+      "offset": 33597,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29587,
+      "offset": 33612,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29604,
+      "offset": 33629,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29618,
+      "offset": 33643,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "FloatLiteral",
-      "offset": 29627,
+      "offset": 33652,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29660,
+      "offset": 33685,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29673,
+      "offset": 33698,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29713,
+      "offset": 33738,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29911,
+      "offset": 33936,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 30550,
+      "offset": 34575,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 30579,
+      "offset": 34604,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 30661,
+      "offset": 34686,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 30689,
+      "offset": 34714,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 30812,
+      "offset": 34837,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 30819,
+      "offset": 34844,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 31114,
+      "offset": 35139,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 31165,
+      "offset": 35190,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 31212,
+      "offset": 35237,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 31250,
+      "offset": 35275,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 31271,
+      "offset": 35296,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 31283,
+      "offset": 35308,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 31336,
+      "offset": 35361,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 31341,
+      "offset": 35366,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 31458,
+      "offset": 35483,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 31463,
+      "offset": 35488,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 31621,
+      "offset": 35646,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 31642,
+      "offset": 35667,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 31654,
+      "offset": 35679,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 31707,
+      "offset": 35732,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 31719,
+      "offset": 35744,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 31838,
+      "offset": 35863,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 31850,
+      "offset": 35875,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 32447,
+      "offset": 36472,
       "length": 2,
       "value": "22"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "FloatLiteral",
-      "offset": 32489,
+      "offset": 36514,
       "length": 4,
       "value": "-3.0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 32628,
+      "offset": 36653,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 32645,
+      "offset": 36670,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 38281,
+      "offset": 42505,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 38286,
+      "offset": 42510,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "Array",
-      "offset": 38352,
+      "offset": 42576,
       "length": 2,
       "value": "[]"
     },
