@@ -10133,8 +10133,8 @@
           },
           {
             "kind": "Var",
-            "name": "PersonalCodeServiceURL",
-            "printedName": "PersonalCodeServiceURL",
+            "name": "serviceURL",
+            "printedName": "serviceURL",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -10144,8 +10144,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12INEDecoderFW19PersonalCodeScannerC0cD10ServiceURLSSvp",
-            "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC0cD10ServiceURLSSvp",
+            "usr": "s:12INEDecoderFW19PersonalCodeScannerC10serviceURLSSvp",
+            "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC10serviceURLSSvp",
             "moduleName": "INEDecoderFW",
             "declAttributes": [
               "HasInitialValue",
@@ -10169,8 +10169,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC0cD10ServiceURLSSvg",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC0cD10ServiceURLSSvg",
+                "usr": "s:12INEDecoderFW19PersonalCodeScannerC10serviceURLSSvg",
+                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC10serviceURLSSvg",
                 "moduleName": "INEDecoderFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -10193,8 +10193,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC0cD10ServiceURLSSvs",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC0cD10ServiceURLSSvs",
+                "usr": "s:12INEDecoderFW19PersonalCodeScannerC10serviceURLSSvs",
+                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC10serviceURLSSvs",
                 "moduleName": "INEDecoderFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -10211,8 +10211,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC0cD10ServiceURLSSvM",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC0cD10ServiceURLSSvM",
+                "usr": "s:12INEDecoderFW19PersonalCodeScannerC10serviceURLSSvM",
+                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC10serviceURLSSvM",
                 "moduleName": "INEDecoderFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -10221,8 +10221,8 @@
           },
           {
             "kind": "Var",
-            "name": "PersonalCodeAccessKey",
-            "printedName": "PersonalCodeAccessKey",
+            "name": "accessKey",
+            "printedName": "accessKey",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -10232,8 +10232,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12INEDecoderFW19PersonalCodeScannerC0cD9AccessKeySSvp",
-            "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC0cD9AccessKeySSvp",
+            "usr": "s:12INEDecoderFW19PersonalCodeScannerC9accessKeySSvp",
+            "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC9accessKeySSvp",
             "moduleName": "INEDecoderFW",
             "declAttributes": [
               "HasInitialValue",
@@ -10257,8 +10257,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC0cD9AccessKeySSvg",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC0cD9AccessKeySSvg",
+                "usr": "s:12INEDecoderFW19PersonalCodeScannerC9accessKeySSvg",
+                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC9accessKeySSvg",
                 "moduleName": "INEDecoderFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -10281,8 +10281,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC0cD9AccessKeySSvs",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC0cD9AccessKeySSvs",
+                "usr": "s:12INEDecoderFW19PersonalCodeScannerC9accessKeySSvs",
+                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC9accessKeySSvs",
                 "moduleName": "INEDecoderFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -10299,8 +10299,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC0cD9AccessKeySSvM",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC0cD9AccessKeySSvM",
+                "usr": "s:12INEDecoderFW19PersonalCodeScannerC9accessKeySSvM",
+                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC9accessKeySSvM",
                 "moduleName": "INEDecoderFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -10309,8 +10309,8 @@
           },
           {
             "kind": "Var",
-            "name": "PersonalCodeSecretKey",
-            "printedName": "PersonalCodeSecretKey",
+            "name": "secretKey",
+            "printedName": "secretKey",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -10320,8 +10320,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12INEDecoderFW19PersonalCodeScannerC0cD9SecretKeySSvp",
-            "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC0cD9SecretKeySSvp",
+            "usr": "s:12INEDecoderFW19PersonalCodeScannerC9secretKeySSvp",
+            "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC9secretKeySSvp",
             "moduleName": "INEDecoderFW",
             "declAttributes": [
               "HasInitialValue",
@@ -10345,8 +10345,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC0cD9SecretKeySSvg",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC0cD9SecretKeySSvg",
+                "usr": "s:12INEDecoderFW19PersonalCodeScannerC9secretKeySSvg",
+                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC9secretKeySSvg",
                 "moduleName": "INEDecoderFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -10369,8 +10369,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC0cD9SecretKeySSvs",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC0cD9SecretKeySSvs",
+                "usr": "s:12INEDecoderFW19PersonalCodeScannerC9secretKeySSvs",
+                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC9secretKeySSvs",
                 "moduleName": "INEDecoderFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -10387,8 +10387,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC0cD9SecretKeySSvM",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC0cD9SecretKeySSvM",
+                "usr": "s:12INEDecoderFW19PersonalCodeScannerC9secretKeySSvM",
+                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC9secretKeySSvM",
                 "moduleName": "INEDecoderFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -10397,8 +10397,8 @@
           },
           {
             "kind": "Var",
-            "name": "PersonalCodePublicKey",
-            "printedName": "PersonalCodePublicKey",
+            "name": "publicKey",
+            "printedName": "publicKey",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -10408,8 +10408,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12INEDecoderFW19PersonalCodeScannerC0cD9PublicKeySSvp",
-            "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC0cD9PublicKeySSvp",
+            "usr": "s:12INEDecoderFW19PersonalCodeScannerC9publicKeySSvp",
+            "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC9publicKeySSvp",
             "moduleName": "INEDecoderFW",
             "declAttributes": [
               "HasInitialValue",
@@ -10433,8 +10433,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC0cD9PublicKeySSvg",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC0cD9PublicKeySSvg",
+                "usr": "s:12INEDecoderFW19PersonalCodeScannerC9publicKeySSvg",
+                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC9publicKeySSvg",
                 "moduleName": "INEDecoderFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -10457,8 +10457,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC0cD9PublicKeySSvs",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC0cD9PublicKeySSvs",
+                "usr": "s:12INEDecoderFW19PersonalCodeScannerC9publicKeySSvs",
+                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC9publicKeySSvs",
                 "moduleName": "INEDecoderFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -10475,96 +10475,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC0cD9PublicKeySSvM",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC0cD9PublicKeySSvM",
-                "moduleName": "INEDecoderFW",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "PersonalCodeToken",
-            "printedName": "PersonalCodeToken",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12INEDecoderFW19PersonalCodeScannerC0cD5TokenSSvp",
-            "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC0cD5TokenSSvp",
-            "moduleName": "INEDecoderFW",
-            "declAttributes": [
-              "HasInitialValue",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC0cD5TokenSSvg",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC0cD5TokenSSvg",
-                "moduleName": "INEDecoderFW",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC0cD5TokenSSvs",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC0cD5TokenSSvs",
-                "moduleName": "INEDecoderFW",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12INEDecoderFW19PersonalCodeScannerC0cD5TokenSSvM",
-                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC0cD5TokenSSvM",
+                "usr": "s:12INEDecoderFW19PersonalCodeScannerC9publicKeySSvM",
+                "mangledName": "$s12INEDecoderFW19PersonalCodeScannerC9publicKeySSvM",
                 "moduleName": "INEDecoderFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -12005,966 +11917,966 @@
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "StringLiteral",
-      "offset": 1260,
+      "offset": 1248,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "StringLiteral",
-      "offset": 1310,
+      "offset": 1286,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "StringLiteral",
-      "offset": 1360,
+      "offset": 1324,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "StringLiteral",
-      "offset": 1410,
+      "offset": 1362,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "StringLiteral",
-      "offset": 1456,
+      "offset": 1397,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "StringLiteral",
-      "offset": 1500,
-      "length": 2,
-      "value": "\"\""
+      "offset": 1441,
+      "length": 9,
+      "value": "\"loading\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 1602,
+      "offset": 1550,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "StringLiteral",
-      "offset": 1655,
+      "offset": 1603,
       "length": 19,
       "value": "\"xmark.circle.fill\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "StringLiteral",
-      "offset": 1726,
+      "offset": 1674,
       "length": 11,
       "value": "\"bolt.fill\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "StringLiteral",
-      "offset": 1790,
+      "offset": 1738,
       "length": 17,
       "value": "\"bolt.slash.fill\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "StringLiteral",
-      "offset": 1861,
+      "offset": 1809,
       "length": 27,
       "value": "\"bolt.badge.automatic.fill\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "StringLiteral",
-      "offset": 1917,
+      "offset": 1865,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "StringLiteral",
-      "offset": 1947,
+      "offset": 1895,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "FloatLiteral",
-      "offset": 2015,
+      "offset": 1963,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "FloatLiteral",
-      "offset": 2023,
+      "offset": 1971,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "FloatLiteral",
-      "offset": 2896,
+      "offset": 2844,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "Dictionary",
-      "offset": 3797,
+      "offset": 3745,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 3832,
+      "offset": 3780,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 4145,
+      "offset": 4093,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 4646,
+      "offset": 4594,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 4685,
+      "offset": 4633,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 4714,
+      "offset": 4662,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 9449,
+      "offset": 9397,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "FloatLiteral",
-      "offset": 9975,
+      "offset": 9923,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 10007,
+      "offset": 9955,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 18244,
+      "offset": 18192,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 19611,
+      "offset": 19559,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 19644,
+      "offset": 19592,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 19677,
+      "offset": 19625,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 27445,
+      "offset": 27285,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 27503,
+      "offset": 27343,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 27563,
+      "offset": 27403,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 27819,
+      "offset": 27659,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 28235,
+      "offset": 28075,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "FloatLiteral",
-      "offset": 29201,
+      "offset": 29041,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29612,
+      "offset": 29452,
       "length": 3,
       "value": "768"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29714,
+      "offset": 29554,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29769,
+      "offset": 29609,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29778,
+      "offset": 29618,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29833,
+      "offset": 29673,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29842,
+      "offset": 29682,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29848,
+      "offset": 29688,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 30050,
+      "offset": 29890,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 30057,
+      "offset": 29897,
       "length": 4,
       "value": "0x0f"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 30068,
+      "offset": 29908,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 30127,
+      "offset": 29967,
       "length": 4,
       "value": "0xf0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 30138,
+      "offset": 29978,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 30201,
+      "offset": 30041,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "Array",
-      "offset": 30504,
+      "offset": 30344,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 30680,
+      "offset": 30520,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 30788,
+      "offset": 30628,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 30829,
+      "offset": 30669,
       "length": 2,
       "value": "45"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 30862,
+      "offset": 30702,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 30894,
+      "offset": 30734,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 30908,
+      "offset": 30748,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 30930,
+      "offset": 30770,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 30983,
+      "offset": 30823,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 31005,
+      "offset": 30845,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 31026,
+      "offset": 30866,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 31048,
+      "offset": 30888,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 31099,
+      "offset": 30939,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 31259,
+      "offset": 31099,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 31271,
+      "offset": 31111,
       "length": 2,
       "value": "35"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 31385,
+      "offset": 31225,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 31392,
+      "offset": 31232,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 31917,
+      "offset": 31757,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 31949,
+      "offset": 31789,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 31984,
+      "offset": 31824,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 32375,
+      "offset": 32215,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 32422,
+      "offset": 32262,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 32469,
+      "offset": 32309,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 32516,
+      "offset": 32356,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 32563,
+      "offset": 32403,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 32593,
+      "offset": 32433,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 32606,
+      "offset": 32446,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 32645,
+      "offset": 32485,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 32842,
+      "offset": 32682,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 33093,
+      "offset": 32933,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 33108,
+      "offset": 32948,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 33125,
+      "offset": 32965,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 33139,
+      "offset": 32979,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "FloatLiteral",
-      "offset": 33148,
+      "offset": 32988,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 33209,
+      "offset": 33049,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 33223,
+      "offset": 33063,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 33236,
+      "offset": 33076,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 33252,
+      "offset": 33092,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 33267,
+      "offset": 33107,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 33281,
+      "offset": 33121,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 33345,
+      "offset": 33185,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 33359,
+      "offset": 33199,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 33372,
+      "offset": 33212,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 33388,
+      "offset": 33228,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 33403,
+      "offset": 33243,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 33417,
+      "offset": 33257,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 33481,
+      "offset": 33321,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 33496,
+      "offset": 33336,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 33513,
+      "offset": 33353,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 33527,
+      "offset": 33367,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "FloatLiteral",
-      "offset": 33536,
+      "offset": 33376,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 33597,
+      "offset": 33437,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 33612,
+      "offset": 33452,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 33629,
+      "offset": 33469,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 33643,
+      "offset": 33483,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "FloatLiteral",
-      "offset": 33652,
+      "offset": 33492,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 33685,
+      "offset": 33525,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 33698,
+      "offset": 33538,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 33738,
+      "offset": 33578,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 33936,
+      "offset": 33776,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 34575,
+      "offset": 34415,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 34604,
+      "offset": 34444,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 34686,
+      "offset": 34526,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 34714,
+      "offset": 34554,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 34837,
+      "offset": 34677,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 34844,
+      "offset": 34684,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 35139,
+      "offset": 34979,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 35190,
+      "offset": 35030,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 35237,
+      "offset": 35077,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 35275,
+      "offset": 35115,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 35296,
+      "offset": 35136,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 35308,
+      "offset": 35148,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 35361,
+      "offset": 35201,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 35366,
+      "offset": 35206,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 35483,
+      "offset": 35323,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 35488,
+      "offset": 35328,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 35646,
+      "offset": 35486,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 35667,
+      "offset": 35507,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 35679,
+      "offset": 35519,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 35732,
+      "offset": 35572,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 35744,
+      "offset": 35584,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 35863,
+      "offset": 35703,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 35875,
+      "offset": 35715,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 36472,
+      "offset": 36312,
       "length": 2,
       "value": "22"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "FloatLiteral",
-      "offset": 36514,
+      "offset": 36354,
       "length": 4,
       "value": "-3.0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 36653,
+      "offset": 36493,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 36670,
+      "offset": 36510,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 42505,
+      "offset": 42345,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 42510,
+      "offset": 42350,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/INEDecoder\/FRAMEWORK\/INEDecoderFW\/INEDecoderFW\/personalcode_onlineFW.swift",
       "kind": "Array",
-      "offset": 42576,
+      "offset": 42416,
       "length": 2,
       "value": "[]"
     },
